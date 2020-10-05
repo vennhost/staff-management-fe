@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .home-page{
+  background-image: url(./img/bg2.png);
+  height: 900px !important;
+  width: 1000px !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+} */
+
+.image {
+  position: absolute !important;
+  
+}
+
+.signin-form {
+  position: relative !important;
+  padding-top: 150px !important;
+  color: rgb(248, 0, 0) !important;
+}
+
+small{
+  color: #ffffff !important;
+}
+
+.form-control {
+  background: transparent !important;
+}
