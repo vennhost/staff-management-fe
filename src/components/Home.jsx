@@ -18,21 +18,21 @@ class Home extends React.Component {
                     
                     </div>
                     <div className="col-sm">
-                        <div><h4>STAFF SIGN IN</h4></div>
+                        <div><h4>STAFF INFORMATION SYSTEM</h4></div>
 
                     <form>
                         <div className="form-group">
-                            <label for="email">Email address</label>
+                            <label className="label-text" for="email">Email address</label>
                             <input type="email" className="form-control" id="email" placeholder="Your Email" aria-describedby="emailHelp"/>
                             <small id="emailHelp" className="form-text">We'll never share your email with anyone else.</small>
                         </div>
                         <div className="form-group">
-                            <label for="password">Password</label>
+                            <label className="label-text" for="password">Password</label>
                             <input type="password" className="form-control" id="password"/>
                         </div>
                         <div className="form-group form-check">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                            <label className="form-check-label" for="exampleCheck1">Check me out</label>
+                            <label className="label-text" className="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
                         <button type="submit" className="btn btn-primary">Sign In</button>
                         </form>

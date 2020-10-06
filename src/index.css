@@ -22,19 +22,37 @@ code {
 
 .image {
   position: absolute !important;
+  opacity: 50% !important;
   
 }
 
 .signin-form {
   position: relative !important;
   padding-top: 150px !important;
-  color: rgb(248, 0, 0) !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.label-text {
+
+  color: rgb(0, 0, 0) !important;
 }
 
 small{
-  color: #ffffff !important;
+  color: #706c6c !important;
+}
+
+h4 {
+  color: #9b0707 !important;
 }
 
 .form-control {
   background: transparent !important;
+}
+
+input {
+  border-color: rgb(0, 0, 0) !important;
+}
+
+input:hover {
+  border-color: rgb(39, 37, 37) !important;
 }
