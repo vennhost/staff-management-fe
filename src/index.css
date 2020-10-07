@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden !important;
 }
 
 code {
@@ -22,7 +23,8 @@ code {
 
 .image {
   position: absolute !important;
-  opacity: 50% !important;
+  opacity: 70% !important;
+  
   
 }
 
@@ -43,6 +45,7 @@ small{
 
 h4 {
   color: #9b0707 !important;
+  text-align: center;
 }
 
 .form-control {
@@ -55,4 +58,12 @@ input {
 
 input:hover {
   border-color: rgb(39, 37, 37) !important;
+}
+
+.footer-text {
+  position: relative !important;
+  justify-content: center !important;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
 }

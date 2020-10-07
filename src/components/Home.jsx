@@ -1,5 +1,6 @@
 import React from "react";
-import bg from "../img/bg2.png"
+import bg from "../img/bg2.png";
+import { Route, Link } from "react-router-dom";
 
 
 
@@ -10,7 +11,7 @@ class Home extends React.Component {
             
             <div className="home-page">
 
-                <img className="image" src={bg} width="100%" alt="bg image" />
+                <img className="image" src={bg} width="100%" alt="Background" />
 
                <div className="container signin-form">
                 <div className="row">
@@ -32,9 +33,10 @@ class Home extends React.Component {
                         </div>
                         <div className="form-group form-check">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-                            <label className="label-text" className="form-check-label" for="exampleCheck1">Check me out</label>
+                            <label className="form-check-label label-text" for="exampleCheck1">Remember me</label>
                         </div>
                         <button type="submit" className="btn btn-primary">Sign In</button>
+                        <div className="footer-text"><p>Not registered? <Route><Link to="/register">Register Now</Link></Route> </p></div>
                         </form>
                     
 
